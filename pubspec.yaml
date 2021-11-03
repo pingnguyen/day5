@@ -1,0 +1,41 @@
+name: df05
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  json_annotation: ^4.1.0
+  provider: ^6.0.1
+  dio: ^4.0.1
+  http: ^0.13.4
+  cached_network_image: ^3.1.0
+  # image_gallery_saver: ^1.7.1
+  # overlay_support: ^1.2.1
+  # path_provider: ^2.0.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+flutter_intl:
+  enabled: true
